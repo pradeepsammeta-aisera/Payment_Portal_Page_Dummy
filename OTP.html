@@ -1,18 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en"><head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>OTP Verification</title>
 <style>
     header{
-	width: 100vw;
-	min-height: 100vh;
-	background: #34495e;
-	font-size: 1.2rem;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  width: 100vw;
+  min-height: 100vh;
+  background: #34495e;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
   body {
     font-family: Arial, sans-serif;
@@ -29,7 +28,7 @@
     max-width: 450px;
     padding: 60px;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 1px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
   }
@@ -55,14 +54,19 @@
     <header>
   <div class="container">
     <h2>OTP Verification</h2>
-    <p style="max-width: 450px;">We've sent a 6-digit verification code to both your mobile number and email address. <br/>Kindly enter the code below    </p>
+    <p style="max-width: 450px;">We've sent a 6-digit verification code to both your mobile number and email address. <br>Kindly enter the code below    </p>
 
-    <form action = "Thanks_Page.html">
-      <input type="text" class="otp-input" placeholder="Enter OTP" maxlength="6" pattern="\d{6}" required>
-      <br/>
+    <form action="Thanks_Page.html">
+      <input type="password" class="otp-input" placeholder="Enter OTP" maxlength="6" pattern="\d{6}" required="">
+      <br>
       <button type="submit" class="submit-btn">Verify OTP</button>
     </form>
+    <p class="ais-powered" style="
+    font-size: x-small;
+    margin-top: 21px;
+">Powered by<br> <a href="https://aisera.com" target="_blank"><img class="ais-logo" height="12px" src="https://static.aisera.com/share/email/aisera-color.svg"></a></p>
   </div>
 </header>
-</body>
-</html>
+
+
+</body></html>
